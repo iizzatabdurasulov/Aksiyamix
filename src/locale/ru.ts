@@ -1,0 +1,162 @@
+const translateRu = {
+  katalog: "Каталог",
+  search: "Поиск",
+  logIn: "Войти",
+  categories: "Категории",
+  best_ads: "Лучшие объявления",
+  discount_start_announcement: "Объявления о начале скидки",
+  forYou: "для тебя",
+  discountNearby: "Скидки рядом",
+  lastViewedAds: "Последние просмотренные объявления",
+  stoppedAds: "Остановленные объявления",
+  similarProducts: "Похожие продукты",
+  currency: "сум",
+  favorites: "Избранное",
+  noFavorites: "Пока здесь ничего нет",
+  ourPartners: "Наши партнеры",
+  partnersDesc:
+    "Сотрудничая с нами, вы можете увеличить продажи своего магазина.",
+  seeAll: "Смотреть все",
+  clickLikeIcon:
+    "Жмите ️❤️  на странице товара и добавляйте сюда то, что нравится.",
+  goToProductCatalog: "Перейти в каталог товаров",
+  noNotifications: "На данный момент отсутствуют уведомления.",
+  buyThrough: "Покупайте товары с лучшими скидками через Aksiyamix",
+  adress: "Адресс",
+  noReviews: "Пока нет отзывов!",
+  feedback: "Оставить отзыв",
+  buy: "купить",
+  promo: "При вводе промокода START50 вы получите скидку 50%",
+  applyPromo: "Применить промокод",
+  enterPromo: "Введите промокод",
+
+  // Sections
+
+
+  // Regions
+  regions: {
+    allRegions: "Все регионы",
+    karakalpakstan: "Республика Каракалпакстан",
+    khorezm: "Хорезм",
+    bukhara: "Бухара",
+    navoi: "Навои",
+    samarkand: "Самарканд",
+    kashkadarya: "Кашкадарья",
+    surkhandarya: "Сурхандарьинская",
+    jizzakh: "Джизак",
+    syrdarya: "Сырдарья",
+    tashkent: "Ташкент",
+    namangan: "Наманган",
+    fergana: "Фергана",
+    andijan: "Андижан",
+  },
+
+  // Categories
+  category: {
+    electronics: "Электроника",
+    books: "Книги",
+    HouseholdAppliances: "Бытовая техника",
+    furniture: "Мебель",
+    homeGarden: "Дом и сад",
+    childrensGoods: "Детские товары",
+    clothes: "Одежда",
+  },
+
+  // Products
+
+  products: {
+    product1: "Фотоаппарат Canon EOS 2000D Kit EF-S 18-55mm III IS Wi-Fi",
+    product2: "Смартфон Apple iPhone 13 pro 256 ГБ, Dual: nano SIM + eSIM...",
+    product3: "Наушники Apple AirPods Pro (2-го поколения, 2022), белый",
+    product4: "Смартфон Apple iPhone 13 pro 256 ГБ, Dual: nano SIM + eSIM...",
+    memory: "Встроенная память (ROM)",
+    productColor: "Цвет товара:",
+    black: "Чёрный",
+    green: "Зелёный",
+    blue: "Синий",
+    grey: "Серый",
+    slot: "Слот для SIM:",
+    discountDeadline: "Дата начала и окончания скидки",
+    complaint: "Жалоба",
+    adminDesc:
+      "По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum",
+    follow: "Подписаться",
+    productDetail: "О товаре",
+    detailInfo:
+      "iPhone 15 Pro: новый король смартфонов с инновационными функциями! Встречайте мощный и стильный iPhone с передовыми технологиями! Представляем iPhone 15 Pro, новый флагман Apple, который изменит ваше представление о смартфонах. Он оснащен OLED-дисплеем с диагональю 6.1 дюйма и технологией Super Retina XDR для непревзойденной цветопередачи и яркости. В основе iPhone 15 Pro лежит мощнейший процессор A17 Pro, который гарантирует молниеносное быстродействие и плавную работу при любых нагрузках. Тройная камера с оптической стабилизацией обеспечивает потрясающие снимки и кинематографические видео. Технология Face ID гарантирует быструю и безопасную аутентификацию. Аккумулятор увеличенной емкости поддерживает быструю зарядку, позволяя работать и играть весь день без перерыва.",
+    characteristics: "Характеристики",
+    comments: "Отзывы",
+    aboutSeller: "О продавце",
+    totalPrice: "Итоговая цена",
+    discount: "Скидка",
+    regularPrice: "Обычная цена",
+    ISBNKey: "ISBN",
+    ISBNValue: "9789943521087",
+    authorKey: "Автор",
+    authorValue: "Жюль Верн",
+    languageKey: "Язык",
+    languageValue: "Узбекский",
+    scriptKey: "Письменность",
+    scriptValue: "Латиница",
+    pageCountKey: "Количество страниц",
+    pageCountValue: 368,
+    publisherKey: "Издательство",
+    publisherValue: "Ғафур Ғулом",
+    coverTypeKey: "Тип обложки",
+    coverTypeValue: "Твёрдая обложка",
+    paperFormatKey: "Формат бумаги",
+    paperFormatValue: "A5",
+    publishYearKey: "Год издания",
+    publishYearValue: 2023,
+  },
+
+  // SignUp
+
+  signUp: {
+    email: "Введите адрес электронной почты",
+    phone: "Введите свой номер телефона.",
+    codeVerification: "Введите код ",
+    codeVerificationInfo: "5-значный код на",
+    password: "Введите пароль",
+    smsInfo: "Отправим смс с кодом подтверждения",
+    getCode: "Получить код",
+    enterCode: "Введите код",
+    confirmPhone:
+      "Для подтверждения номера телефона отправили 5-значный код на ",
+    newCode: "Если код не придёт, можно получить новый код через ",
+    verify: "Подтвердить",
+    resendCode: "Отправить код повторно",
+    signUp: "Регистрироваться",
+  },
+
+  // Validation
+
+  valid: {
+    phoneError: "Номер телефона должен начинаться с +998 и содержать 9 цифр",
+    emailError: "Это поле должно быть заполнено знаком «@»",
+    passwordError: "Password xato",
+  },
+
+  // UserInfo
+  userInfo: {
+    personalCabinet: "Мой кабинет",
+    title1: "Моя информация",
+    title2: "Следующая компания",
+    title3: "Нравится",
+    title4: "Настройки",
+    title5: "Выход",
+    addCompany: "Добавить компанию",
+    yourName: "Ваше имя",
+    email: "Электронная почта",
+    date: "Дата рождения",
+    surname: "Фамилия",
+    address: "Адрес",
+    phoneNumber: "Номер телефона",
+    gender: "Пол",
+    save: "Сохранить",
+    male: "Мужчина",
+    female: "Женщина",
+  },
+};
+
+export default translateRu;
