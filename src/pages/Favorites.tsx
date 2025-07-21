@@ -3,7 +3,7 @@ import type { RootState } from "@/app/store";
 import ProductItem from "@/components/product/ProductItem";
 import { styles } from "@/styles/styles";
 import { useTranslation } from "react-i18next";
-import NotFound from "@/components/NothingThere";
+import NotFound from "@/utils/NothingThere";
 export default function Favorites() {
   const { t } = useTranslation();
   const favorites = useSelector((state: RootState) => state.favorites.items);

@@ -11,7 +11,7 @@ import ProductDetailInfo from "@/components/product/ProductDetailInfo";
 import ProductDetailPart from "@/components/product/ProductDetailPart";
 import { useParams } from "react-router-dom";
 import { type RootState } from "@/app/store";
-import NothingThere from "@/components/NothingThere";
+import NothingThere from "@/utils/NothingThere";
 
 export default function ProductDetail() {
   const { t } = useTranslation();

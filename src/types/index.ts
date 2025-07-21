@@ -59,6 +59,8 @@ export interface IProduct {
   comments: string;
   characteristicsType: ICharacteristicsType[];
 }
+
+
 export interface ISection {
   id: number;
   title: string;

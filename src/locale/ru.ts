@@ -30,8 +30,6 @@ const translateRu = {
   applyPromo: "Применить промокод",
   enterPromo: "Введите промокод",
 
-  // Sections
-
 
   // Regions
   regions: {

@@ -315,7 +315,7 @@ export default function ProductDetailInfo() {
             </button>
           </form>
 
-          <button className={`${styles.blueBtn}`}>{t("buy")}</button>
+          <button  className={`${styles.blueBtn}`}>{t("buy")}</button>
         </div>
       </div>
     </div>

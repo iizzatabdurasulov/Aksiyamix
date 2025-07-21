@@ -5,6 +5,12 @@ type UserType = {
   email: string | null;
   displayName: string | null;
   photoURL: string | null;
+  yourName: string | null;
+  birthDate: string | null;
+  surname: string | null;
+  address: string | null;
+  phoneNumber: string | null;
+  gender: string | null;
 };
 
 type AuthState = {
