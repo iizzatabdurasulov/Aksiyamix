@@ -52,9 +52,15 @@ export default function Login() {
         dispatch(
           setUser({
             uid: user.uid,
-            email: user.email ?? "",
-            displayName: user.displayName ?? "",
-            photoURL: user.photoURL ?? "",
+            email: user.email ?? null,
+            displayName: user.displayName ?? null,
+            photoURL: user.photoURL ?? null,
+            yourName: null,
+            surname: null,
+            birthDate: null,
+            address: null,
+            phoneNumber: null,
+            gender: null,
           })
         );
       }
@@ -64,10 +70,11 @@ export default function Login() {
     }
   }
 
-
   const handleClick = () => {
-    alert('Currently in the process of registering with a phone number !!!\n You can continue with Google')
-  }
+    alert(
+      "Currently in the process of registering with a phone number !!!\n You can continue with Google"
+    );
+  };
 
   return (
     <div>
@@ -99,7 +106,7 @@ export default function Login() {
           />
 
           <Button
-          onClick={handleClick}
+            onClick={handleClick}
             type="submit"
             className={styles.blueBtn}
           >

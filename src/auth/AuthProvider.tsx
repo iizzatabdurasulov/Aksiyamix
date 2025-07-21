@@ -1,4 +1,3 @@
-
 import { onAuthStateChanged } from "firebase/auth";
 import { useEffect } from "react";
 import { auth } from "@/firebase/auth";
@@ -14,9 +13,15 @@ export default function AuthProvider() {
         dispatch(
           setUser({
             uid: user.uid,
-            email: user.email ?? "",
-            displayName: user.displayName ?? "",
-            photoURL: user.photoURL ?? "",
+            email: user.email ?? null,
+            displayName: user.displayName ?? null,
+            photoURL: user.photoURL ?? null,
+            yourName: null,
+            surname: null,
+            birthDate: null,
+            address: null,
+            phoneNumber: null,
+            gender: null,
           })
         );
       } else {
@@ -27,5 +32,5 @@ export default function AuthProvider() {
     return () => unsubscribe();
   }, [dispatch]);
 
-  return null; 
+  return null;
 }
